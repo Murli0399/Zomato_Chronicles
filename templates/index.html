@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - Zomato Chronicles</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Menu</h1>
+    <table>
+        <tr>
+            <th>Dish ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        {% for dish in dishes %}
+        <tr>
+            <td>{{ dish[0] }}</td>
+            <td>{{ dish[1] }}</td>
+            <td>{{ dish[2] }}</td>
+            <td>{{ "Available" if dish[3] else "Not Available" }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Add New Dish</h2>
+    <form action="/add_dish" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+        <label for="availability">Availability:</label>
+        <input type="checkbox" id="availability" name="availability">
+        <button type="submit">Add Dish</button>
+    </form>
+</body>
+</html>
