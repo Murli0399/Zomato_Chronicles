@@ -30,9 +30,6 @@ The project follows a simple structure:
 ## Contribution
 Contributions to Zomato Chronicles are welcome! If you have any ideas for enhancements or bug fixes, feel free to submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## About
 Zomato Chronicles was created as a sample project to showcase web development with Flask and MySQL. It is not intended for production use but can serve as a foundation for building more sophisticated restaurant management systems.
 
