@@ -9,16 +9,16 @@ Welcome to Zomato Chronicles! This is a restaurant menu management web applicati
 - **MySQL Database:** The menu and order data are stored in a MySQL database, ensuring data persistence and scalability.
 
 ## Technologies Used
-Python
-Flask: A lightweight web framework for Python that enables rapid development of web applications.
-Flask-MySQL: An extension that simplifies MySQL database integration with Flask applications.
+- Python
+- Flask: A lightweight web framework for Python that enables rapid development of web applications.
+- Flask-MySQL: An extension that simplifies MySQL database integration with Flask applications.
 
 ## How to Use
-Clone the repository to your local machine.
-Set up a virtual environment and install the required dependencies.
-Configure the MySQL connection settings in the Flask application.
-Run the Flask application with python app.py.
-Access the application through your browser at http://localhost:5000/.
+1. Clone the repository to your local machine.
+2. Set up a virtual environment and install the required dependencies.
+3. Configure the MySQL connection settings in the Flask application.
+4. Run the Flask application with python app.py.
+5. Access the application through your browser at http://localhost:5000/.
 
 ## Project Structure
 The project follows a simple structure:
