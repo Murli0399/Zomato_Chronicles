@@ -23,10 +23,11 @@ Welcome to Zomato Chronicles! This is a restaurant menu management web applicati
 ## Project Structure
 The project follows a simple structure:
 
-app.py: The main Flask application file containing route definitions and database configuration.
-static/: Contains static files such as CSS and images for styling the templates.
-templates/: Contains HTML templates for rendering web pages.
-Contribution
+- **app.py:** The main Flask application file containing route definitions and database configuration.
+- **static/:** Contains static files such as CSS and images for styling the templates.
+- **templates/:** Contains HTML templates for rendering web pages.
+
+## Contribution
 Contributions to Zomato Chronicles are welcome! If you have any ideas for enhancements or bug fixes, feel free to submit a pull request.
 
 ## License
