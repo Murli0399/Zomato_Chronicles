@@ -34,3 +34,17 @@ Contributions to Zomato Chronicles are welcome! If you have any ideas for enhanc
 Zomato Chronicles was created as a sample project to showcase web development with Flask and MySQL. It is not intended for production use but can serve as a foundation for building more sophisticated restaurant management systems.
 
 Thank you for checking out Zomato Chronicles! We hope you find it helpful and inspiring for your web development journey. Happy coding!
+
+## 🔗 Contact Me
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://murli0399.github.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murli-khaire/)
+
+
+## Authors
+
+- [Murli Khaire](https://github.com/Murli0399)
+
+## Acknowledgements
+
+- [Masai School](https://www.masaischool.com/)
